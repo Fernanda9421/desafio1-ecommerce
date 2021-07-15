@@ -67,7 +67,7 @@ header .container {
     font-weight: lighter;
 }
 
-.pagina-principal .botao {
+.pagina-principal .botao1 {
     background-color: #a6caf1;
     border-radius: 30px;
     color: black;
@@ -86,8 +86,198 @@ a{
     text-decoration: none;
 }
 
-.botao:hover {
+.botao1:hover {
     background-color: #07072c;
     color: #a6caf1;
+}
+
+.container3 {
+    text-align: center;
+    margin: 40px;
+}
+
+.subtitulo {
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:xx-large;
+    color: #07072c;
+    text-align: center;
+}
+
+.subtitulo2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.img-patrocinadores {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: 1204px;
+    height: 50px;
+    margin-left: 40px;
+    padding: 0 350px;
+}
+
+.box-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 60px 200px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 10px;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #07072c;
+}
+
+.nome {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color:yellow;
+}
+
+.descricao-nome {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bolder;
+    color: #a6caf1;
+}
+
+.descricao-nome3 {
+    text-align: center;
+    padding: 50px 0;
+    font-weight: bolder;
+    color: #a6caf1;
+}
+
+.descricao-programa {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+}
+
+.descricao-programa2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    width: 200px;
+    border-radius: 8px;
+    background: #cacaf3;
+    padding-top: 10px;
+}
+
+.card-titulo {
+    text-align: center;
+    padding: 15px;
+    color: #07072c;
+}
+
+.card-descricao {
+    text-align: center;
+    padding: 10px;
+}
+
+.treinamento-box1 {
+    text-align: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.treinamento-box2 {
+    text-align: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    margin: 20px 100px;
+
+}
+
+.treinamento1 {
+    border-radius: 8px;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+.treinamento2 {
+    border-radius: 8px;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+.treinamento-titulo {
+    padding: 10px 0;
+    color: #07072c;
+}
+
+.front {
+    padding-bottom: 20px;
+}
+
+.back {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.vtex {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.desafio {
+    padding-bottom: 10px;
+}
+
+
+.treinamento-descricao {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.botao2 {
+    display: block;
+    color: #a6caf1;
+    background-color: #07072c;
+    border-radius: 8px;
+    width: 100%;
+    margin: 20px 500px;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+form {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.input-label {
+    transition: all .25s;
 }
 
