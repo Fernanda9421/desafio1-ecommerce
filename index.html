@@ -185,21 +185,27 @@
     </header>
 
     <header>
-        <div id="form">
-            <h2 class="subtitulo">Participe da transformação do comércio digital!</h2>
-            <h3 class="subtitulo2">Cadastre-se para receber mais informações e promoções</h3>
-            <form>
-                <label class="input-label" for="nome">Nome</label>
-                <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
-                <label class="input-label" for="email">Email</label>
-                <input name="email" id="email" class="input" type="email" placeholder="Email" required>
+        <div class="form-container">
+            <div id="form">
+                <h2 class="subtitulo3">Participe da transformação do comércio digital!</h2>
+                <h3 class="subtitulo4">Cadastre-se para receber mais informações e promoções</h3>
+                <form id="formulario">
+                    <ol>
+                        <li>
+                            <label id="inputLabel" for="email">Email</label>
+                            <input name="email" id="email" class="input" type="email" placeholder="Email" required>
+                        </li>
+                        <li>
+                            <input type="submit" value="Cadastrar" id="botao2"/>
+                        </li>
+                    </ol>
 
-                <button class="botao2">Cadastrar</a>
-
-            </form>
+                </form>
+            </div>
         </div>
     </header>
 
+    <script src="./js/main.js"></script>
     <script src="https://kit.fontawesome.com/eb431a5bec.js" crossorigin="anonymous"></script>
 </body>
 
