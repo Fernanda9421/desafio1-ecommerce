@@ -324,3 +324,61 @@ a{
 ol {
     padding-top: 20px;
 }
+
+.desconto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desconto1 {
+    width: 80%;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.desconto2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 30px 250px;
+}
+
+.desconto3 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.botoes1 {
+    text-align: center;
+}
+
+.botao3 {
+    background-color: #07072c;
+    border-radius: 10px;
+    color: #a6caf1;
+
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding: 15px 10px;
+    width: 800px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    text-align: center;
+    margin: 30px 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.botao3:hover {
+    background-color: #a6caf1;
+    color: #07072c;
+}
+
