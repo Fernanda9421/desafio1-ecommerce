@@ -275,7 +275,7 @@ a{
     transition: .3s ease all;
 }
 
-form {
+#form {
     padding: 30px 0;
     text-align: center;
 }
@@ -283,7 +283,7 @@ form {
 #inputLabel {
     transition: all .25s;
     font-family: 'Roboto', sans-serif;
-    font-size:x-large;
+    font-size: larger;
     font-weight: bolder;
     color: #a6caf1;
     padding-right: 10px;
@@ -301,9 +301,10 @@ form {
 
 #email {
     font-family: 'Roboto', sans-serif;
-    font-size:x-large;
+    font-size:larger;
     border-radius: 5px;
     border: 1px solid #07072c;
+    padding: 10px;
 }
 
 .subtitulo3 {
@@ -318,4 +319,8 @@ form {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #a6caf1;
+}
+
+ol {
+    padding-top: 20px;
 }
