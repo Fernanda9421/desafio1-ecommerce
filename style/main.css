@@ -1,8 +1,81 @@
-
 @media (max-width: 700px) {
     * {
         width: 100%;
-    }  
+    }
+    .titulo {
+        font-size: small;
+        margin-bottom: 300px;
+        width: 100%;
+    }
+    .descricao {
+        display: none;
+    }
+    .container2{
+        display: none;
+    }
+    .botao1 {
+        display: none;
+    }
+    .pagina-principal{
+        width: 100%;
+        max-height: 150px;
+    }
+    .desconto{
+        max-height: 150px;
+    }
+    .desconto1 {
+        margin-bottom: 200px;
+    }
+    .subtitulo {
+        font-weight: normal;
+    }
+    .desconto2 {
+        max-width: 100px;
+        max-height: 76px;
+        margin: auto;
+    }
+    .botao3 {
+        max-width: 100%;
+    }
+    .descricao-nome{
+        display: none;
+    }
+    .desconto2 img {
+        display: none;
+    }
+    header .container3 {
+        margin-left: 0;
+    }
+    header .img-patrocinadores {
+        display: none;
+    }
+    header .box-container {
+        display: none;
+    }
+    .card-descricao {
+        display: none;
+    }
+    header .descricao-programa {
+        padding: 0;
+        width: 100%;
+    }
+    header .descricao-programa2 {
+        padding: 0;
+        width: 100%;
+    }
+    header .treinamento-box1 {
+        margin: 0;
+    }
+    header .treinamento-box2 {
+        margin: 0;
+    }
+    header .card {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    header #botao2{
+        margin-left: 0;
+    }
 }
 
 *{
